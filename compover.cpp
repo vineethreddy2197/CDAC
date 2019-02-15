@@ -46,7 +46,7 @@ class Complex
 		{
 			cout<<"Real : "<<a<<" "<<"Imagin : "<<b<<endl;
 		}
-		Complex operator=(Complex o)
+		Complex operator==(Complex o)
 		{
 			if(this->a==o.a && this->b==o.b)
 			{
@@ -73,6 +73,6 @@ int main()
 {
 	Complex r1;
 	cin>>r1;
-	++r1;
+	r1++;
 	cout<<r1;
 }
