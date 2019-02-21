@@ -30,7 +30,5 @@ int main(int argc, char const *argv[])
 		printf("Not found\n");
 	else
 	printf("result is %d\n", res);
-	//to stop console from closing
-	system("pause");
 	return 0;
 }

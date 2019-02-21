@@ -17,7 +17,5 @@ int main(int argc, char const *argv[])
 				count++;
 	}
 	printf("number of character e is %d\n", count);
-	// to stop console from closing
-	system("pause");
 	return 0;
 }

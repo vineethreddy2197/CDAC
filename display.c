@@ -16,13 +16,10 @@ int main(int argc, char const *argv[])
 	{
 		printf("%s\n",s[i] );
 	}
-	/*to free the memory allocated*/
 	for(int i=0;i<n;i++)
 	{
 		free(s[i]);
 	}
 	free(s);
-	//to stop console from closing
-	system("pause");
 	return 0;
 }
